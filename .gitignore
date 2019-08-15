@@ -60,3 +60,6 @@ buck-out/
 
 # keystores
 *.keystore
+
+# credentials
+credentials.tar.gz
