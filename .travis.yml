@@ -4,7 +4,7 @@ before_install:
   -in credentials.tar.gz.enc -out credentials.tar.gz -d
 - tar -xzf credentials.tar.gz
 - mv debug.keystore ./android/app/
-- nvm install 6
+- nvm install 9
 - node --version
 install:
 - npm install
