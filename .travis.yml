@@ -9,8 +9,9 @@ before_install:
 install:
 - npm install
 - npm install -g react-native-cli
+- export PATH=$PATH:$HOME/travis/.nvm/versions/node/v6.17.1/bin/
+- echo $PATH
 - react-native info
-# - export PATH=$PATH:$HOME/travis/.nvm/versions/node/v6.17.1/bin/
 android:
   components:
   - build-tools-23.0.1
