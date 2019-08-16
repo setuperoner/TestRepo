@@ -8,6 +8,8 @@ before_install:
 - node --version
 install:
 - npm install
+- npm install -g react-native-cli
+- export PATH=$PATH:$HOME/.npm-global/bin
 android:
   components:
   - build-tools-23.0.1
